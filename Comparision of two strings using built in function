@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+char str[50],dup[50];
+int cmp;
+scanf("%c",str);
+scanf("%c",dup);
+cmp=strcmp(str,dup);
+if(cmp==0)
+{
+printf("both are equal");
+}
+else if(cmp==-1)
+printf("Both are unequal as first string is samller than second string");
+else
+printf("both ar unequal asfirst string is greater than second string");
+}
