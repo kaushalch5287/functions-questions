@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+char str[50],dup[50];
+scanf("%c",str);
+strcpy(dup,str);
+printf("n the string after copy: %s",dup);
+}
